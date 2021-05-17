@@ -1,12 +1,12 @@
 // Задача 3 
 
 
-document.querySelector('button').onclick = myClick;
+// document.querySelector('button').onclick = myClick;
 
-function myClick() {
-  let a = document.querySelector('.input').value;
-  alert(a);
-}
+// function myClick() {
+//   let a = document.querySelector('.input').value;
+//   alert(a);
+// }
 
 
 
@@ -14,11 +14,18 @@ function myClick() {
 
 // Задача 4 
 
-// document.querySelector('button').onclick = myClick;
+document.querySelector('button').onclick = myClick;
 
-// function myClick() {
-//   alert("Yandex круче. Но это не точно");
-// }
+function myClick() {
+  let value = document.querySelector('input').value;
+
+  if (value == "google"){
+    alert("Yandex круче. Но это не точно")
+  }
+  else {
+    value == input
+  }
+}
 
 
 
