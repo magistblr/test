@@ -23,7 +23,7 @@ function myClick() {
     alert("Yandex круче. Но это не точно")
   }
   else {
-    value == input
+    value
   }
 }
 
